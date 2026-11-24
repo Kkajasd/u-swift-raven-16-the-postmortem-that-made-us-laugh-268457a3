@@ -26,7 +26,7 @@ Candidates considered: (A) debug-log deletion — picked, most concrete; (B) typ
 - Bundle: `~/workspace/makefun/postmortem-laugh-20261124-bundle.tar.gz` (built by the build subagent with `--session` + `--no-discover --no-family`; see the build report for size/sha256).
 - Kit check: run from the kit dir; expect 13/1 with ONLY `thinking_priced` failing (0 usage rows at build time — parent re-bundles after usage lands).
 - Session file: `~/agents/agent-cc2b2037-adf0-4c8f-ba3a-ca82cca6f1c3/sessions/cc2b2037-adf0-4c8f-ba3a-ca82cca6f1c3.jsonl`
-- Kit dir: `~/workspace/makefun/postmortem-laugh-20261124/kit/u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3-kit`
+- Kit dir: `~/workspace/makefun/postmortem-laugh-kit-20261124/u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3-kit` (moved out of the repo dir 2026-11-24 ~10:44 WIB: kit/ inside the repo dir made the check count 313,000 kit lines and fail thinking_reproduces; repo dir now holds only the 4 entry files)
 
 ## Recovery
 
